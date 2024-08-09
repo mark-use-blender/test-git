@@ -1,0 +1,13 @@
+- [ ] vacuum cannon
+- [ ] ‌sla dlp combo
+- [ ] ‌voice changer
+- [ ] ‌ mechanical tail
+- [ ] ‌ haptic feedback VR
+- [ ] ‌ motor with built-in magnetic gear box
+- [ ] ‌electronic controllable iron core
+- [ ] ‌flesh it out (make it real
+- [ ] ‌linear induction motor 
+- [ ] ‌nendroid mark
+- [ ] ‌fiber migration within a string
+- [ ] ‌RC boat
+- [ ] ‌nickon no sleep
