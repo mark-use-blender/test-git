@@ -10,5 +10,6 @@
 - [ ] ‌nendroid mark
 - [ ] ‌fiber migration within a string
 - [ ] ‌RC boat
-- [ ] ‌nickon no sleep
+- [x] ‌nickon no sleep
 - [ ] RC truckun
+- [ ] tutorial for inserting print test in stl for print farm
