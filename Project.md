@@ -1,10 +1,10 @@
-- [ ] vacuum cannon
-- [ ] ‌sla dlp combo
-- [ ] ‌voice changer
+- [x] vacuum cannon
+- [x] ‌sla dlp combo
+- [x] ‌voice changer
 - [ ] ‌ mechanical tail
-- [ ] ‌ haptic feedback VR
-- [ ] ‌ motor with built-in magnetic gear box
-- [ ] ‌electronic controllable iron core
+- [x] ‌ haptic feedback VR
+- [x] ‌ motor with built-in magnetic gear box
+- [x] ‌electronic controllable iron core
 - [ ] ‌flesh it out (make it real
 - [ ] ‌linear induction motor 
 - [ ] ‌nendroid mark
@@ -13,3 +13,4 @@
 - [x] ‌nickon no sleep
 - [ ] RC truckun
 - [ ] tutorial for inserting print test in stl for print farm
+- [ ] paint booth
