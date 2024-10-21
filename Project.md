@@ -14,3 +14,4 @@
 - [ ] RC truckun
 - [ ] tutorial for inserting print test in stl for print farm
 - [ ] paint booth
+- [x] battery carrier 
