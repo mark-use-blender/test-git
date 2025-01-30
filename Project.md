@@ -8,10 +8,10 @@
 - [ ] ‌flesh it out (make it real
 - [ ] ‌linear induction motor 
 - [ ] ‌nendroid mark
-- [ ] ‌fiber migration within a string
-- [ ] ‌RC boat
+- [x] ‌fiber migration within a string
+- [x] ‌RC boat
 - [x] ‌nickon no sleep
-- [ ] RC truckun
+- [x] RC truckun
 - [ ] tutorial for inserting print test in stl for print farm
 - [ ] paint booth
 - [x] battery carrier 
