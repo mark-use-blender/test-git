@@ -1,0 +1,131 @@
+
+Let \( E \) be the ellipse given by the equation:
+
+\[
+\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1
+\]
+
+where \( a, b > 0 \). We aim to find the area bounded by the ellipse.
+
+---
+
+### Step-by-Step Solution
+
+#### **1. Understanding the Ellipse**
+The equation of the ellipse is in standard form:
+
+\[
+\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1
+\]
+
+Here, \( a \) and \( b \) are the semi-major and semi-minor axes, respectively. The ellipse extends from \( -a \) to \( a \) along the x-axis and from \( -b \) to \( b \) along the y-axis.
+
+---
+
+#### **2. Deriving the Area**
+
+The area \( A \) of an ellipse can be found using integration or parametrization. We will use integration for this derivation.
+
+##### **a. Solving for \( y \) in terms of \( x \)**
+
+From the equation:
+
+\[
+\frac{y^2}{b^2} = 1 - \frac{x^2}{a^2}
+\]
+
+Multiply both sides by \( b^2 \):
+
+\[
+y^2 = b^2 \left(1 - \frac{x^2}{a^2}\right)
+\]
+
+Take the square root:
+
+\[
+y = \pm b \sqrt{1 - \frac{x^2}{a^2}}
+\]
+
+This gives us the upper and lower halves of the ellipse.
+
+##### **b. Setting up the Integral**
+
+The area \( A \) can be computed by integrating the function representing the upper half of the ellipse from \( x = -a \) to \( x = a \), and then doubling the result (to account for the lower half):
+
+\[
+A = 2 \int_{-a}^{a} b \sqrt{1 - \frac{x^2}{a^2}} \, dx
+\]
+
+Since the integrand is even (symmetric about the y-axis), we can simplify by integrating from \( 0 \) to \( a \) and multiplying by 2:
+
+\[
+A = 4b \int_{0}^{a} \sqrt{1 - \frac{x^2}{a^2}} \, dx
+\]
+
+##### **c. Substitution**
+
+Let’s perform the substitution:
+
+\[
+x = a \sin \theta \quad \Rightarrow \quad dx = a \cos \theta \, d\theta
+\]
+
+When \( x = 0 \), \( \theta = 0 \). When \( x = a \), \( \theta = \frac{\pi}{2} \).
+
+Substitute into the integral:
+
+\[
+A = 4b \int_{0}^{\frac{\pi}{2}} \sqrt{1 - \sin^2 \theta} \cdot a \cos \theta \, d\theta
+\]
+
+Simplify using \( \sqrt{1 - \sin^2 \theta} = \cos \theta \):
+
+\[
+A = 4ab \int_{0}^{\frac{\pi}{2}} \cos^2 \theta \, d\theta
+\]
+
+##### **d. Using a Trigonometric Identity**
+
+Use the identity \( \cos^2 \theta = \frac{1 + \cos(2\theta)}{2} \):
+
+\[
+A = 4ab \int_{0}^{\frac{\pi}{2}} \frac{1 + \cos(2\theta)}{2} \, d\theta
+\]
+
+Simplify:
+
+\[
+A = 2ab \int_{0}^{\frac{\pi}{2}} (1 + \cos(2\theta)) \, d\theta
+\]
+
+##### **e. Integrating**
+
+Integrate term by term:
+
+\[
+\int_{0}^{\frac{\pi}{2}} 1 \, d\theta = \left[ \theta \right]_0^{\frac{\pi}{2}} = \frac{\pi}{2}
+\]
+
+\[
+\int_{0}^{\frac{\pi}{2}} \cos(2\theta) \, d\theta = \left[ \frac{\sin(2\theta)}{2} \right]_0^{\frac{\pi}{2}} = 0
+\]
+
+Thus:
+
+\[
+A = 2ab \left( \frac{\pi}{2} + 0 \right) = ab \cdot \pi
+\]
+
+---
+
+#### **3. Final Answer**
+
+The area bounded by the ellipse is:
+
+\[
+A = \boxed{\pi a b}
+\]
+
+---
+
+This result shows that the area of an ellipse is \( \pi a b \), where \( a \) and \( b \) are the lengths of the semi-major and semi-minor axes, respectively.
